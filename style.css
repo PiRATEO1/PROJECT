@@ -170,6 +170,7 @@ nav ul li i{
 .col-3 {
     float: left;
     padding: 0 0.625rem;
+    transition: .2s;
     
 }
 
@@ -182,9 +183,6 @@ h2 {
 
 .top-pick {
     height: 37.5rem;
-    
-    
-    
 }
 
 .row-3{
@@ -199,18 +197,126 @@ h2 {
 .col-4 {
     float: left;
     padding: 0 0.625rem;
+    transition: .2s;
 }
 
 .col-3:hover{
     transition: .2s;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .col-4:hover{
     transition: .2s;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .col-4 img{
     width: 18.75rem;
+
+}
+
+.footer{
+    font-family: 'Segoe UI';
+    background-color: #113946;
+}
+
+.footer,p,li{
+    color: white;
+}
+
+.container-2{
+    display: flex;
+    padding: 10px 30px;
+    height: 210px;
+    
+}
+
+.footer-col-1{
+    position: relative;
+    top: 0;
+    left: 0;
+    font-family: 'Segoe UI';
+}
+
+.footer-col-1 p{
+    padding-top: 50px;
+}
+
+.playstore{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 10vw;
+    padding-top: 5px;
+}
+
+.appstore{
+    position: absolute;
+    top: 77px;
+    left:0;
+    width: 10vw;
+}
+
+.footer-col-3{
+    position: absolute;
+    padding-left: 420px;
+}
+
+.footer-col-3 ul{
+    list-style-type: none;
+    padding-top: 10px;
+    
+}
+
+.footer-col-4{
+    padding-left: 250px;
+    padding-top: 0;
+
+    
+}
+
+.footer-col-4 ul{
+    list-style-type: none;
+}
+
+.socials li{
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.last-line{
+    padding: 30px;
+    display: flex;
+}
+
+.contact{
+    font-size: 15px ;
+}
+
+.contact a {
+    color: white;
+}
+
+.rights{
+    align-items: right;
+    padding-left: 840px;
+
+}
+
+.vera{
+    padding-left: 320px;
+    mix-blend-mode:difference;
+}
+
+.vera h1{
+    float: right;
+    align-items: center;
+    font-size: 58px;
+    padding-left: 10px;
+}
+
+.vera i{
+    font-size: 150px;
 }
