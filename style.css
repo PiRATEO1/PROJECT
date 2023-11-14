@@ -7,23 +7,24 @@
 
 body{
     background-color: #f6f6f6;
+    background-image: url("contents/pexels-cottonbro-studio-10679171.jpg");
+    background-size: 100% ;
+    background-repeat: no-repeat;
 }
 .navbar{
     display: flex;
-    
     padding: 20px;
-    background-color: transparent;
-    height: 900px;
-    background-image: url("contents/pexels-cottonbro-studio-10679171.jpg");
-    background-size: 100%;
-
-
-    
+    background-color: rgba(61, 60, 60, 0.4);
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .logo img{
     width: 6.25rem;
 }
+
 
 nav ul form {
     float: center;
@@ -71,6 +72,8 @@ nav ul li{
     display: inline-block;
     margin: .938rem;
     font-family: 'Segoe UI';
+
+    
     
 }
 
