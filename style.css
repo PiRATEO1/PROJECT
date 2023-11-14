@@ -10,10 +10,14 @@ body{
 }
 .navbar{
     display: flex;
-    align-items: center;
+    
     padding: 20px;
-    background-color: #EAD7BB;
-    height: 100px;
+    background-color: transparent;
+    height: 900px;
+    background-image: url("contents/pexels-cottonbro-studio-10679171.jpg");
+    background-size: 100%;
+
+
     
 }
 
@@ -23,7 +27,7 @@ body{
 
 nav ul form {
     float: center;
-    margin: 3rem;
+   
 }
 
 nav ul li input[type=text]{
@@ -141,7 +145,7 @@ nav ul li i{
     font-size: 1.25rem;
 }
 
-.col-2 h1 {
+.navbar h1 {
     
     color: #113946;
     position: absolute;
@@ -150,8 +154,9 @@ nav ul li i{
     right: 50%;
     transform: translateX(50%);
     font-weight: bold;
-    font-size: 5.5vw;
+    font-size: 300%;
     max-width: 100%;
+    padding-top: 3%;
     
 }
 
