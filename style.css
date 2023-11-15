@@ -5,20 +5,30 @@
     
 }
 
+header{
+    top: auto;
+    
+    
+}
+
 body{
     background-color: #f6f6f6;
-    background-image: url("contents/pexels-cottonbro-studio-10679171.jpg");
+    background-image: url("contents/homepage-cover.png");
     background-size: 100% ;
     background-repeat: no-repeat;
 }
 .navbar{
     display: flex;
     padding: 20px;
-    background-color: rgba(61, 60, 60, 0.4);
     height: 100px;
     position: fixed;
     width: 100%;
     top: 0;
+    overflow: hidden;
+    z-index: 2;
+    background-image: url(contents/navbar-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .logo img{
@@ -30,6 +40,8 @@ nav ul form {
     float: center;
    
 }
+
+
 
 nav ul li input[type=text]{
     width: 25rem;
@@ -84,19 +96,19 @@ nav ul li{
 }
 
 #acc :hover{
-    color: #66b3cd;
+    color: #0F2C59;
     transition: .2s;
     transform: scale(1.1);
 }
 
 #bag :hover {
-    color: #66b3cd;
+    color: #0F2C59;
     transition: .2s;
     transform: scale(1.1);
 }
 
 #options :hover{
-    color: #66b3cd;
+    color: #0F2C59;
 }
 
 
@@ -107,7 +119,7 @@ nav ul li{
 
 a{
     text-decoration: none;
-    color:#0F2C59;
+    color:#ffffff;
 }
 
 p{
