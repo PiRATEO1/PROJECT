@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>VeraVerto</title>
 </head>
@@ -25,7 +25,7 @@
                     <li id="options"><a href="womens.html">WOMEN</a></li>
                     <li id="options"><a href="acces.html">ACCESSORIES</a></li>
                     <li id="options"><a href="about.html">ABOUT</a></li>
-                    <li id="acc"><button class="profile" onclick="openPopup()">
+                    <li id="acc"><button class="profile">
                         <i class="fa-solid fa-user" ></i>
                     </button></li>
                     <li id="wish"><a href="wishlist.html"><i class="fa-sharp fa-solid fa-heart"></i></a></li>
@@ -33,17 +33,6 @@
                 </ul>
             </nav>
         </div>
-        </div>
-    </div>
-    <div class="loginpage">
-        <div class="popup" id="popup">
-            <img src="contents/VeraVerto.png">
-            <h2>LOG IN</h2><br>
-            <label for="" class="email">EMAIL</label><br><br><input type="email"><br>
-            <br>
-            <label for="" class="pass">PASSWORD</label><br><br><input type="password">
-            <br>
-            <br><a href="home.html"><button type="button" class="login" onclick="closePopup()">Log In</button></a>
         </div>
     </div>
 </header>
@@ -114,16 +103,6 @@
             </div>
         </div>
     </div>
-</div>
-<script>
-    let popup = document.getElementById("popup");
-
-    function openPopup(){
-        popup.classList.add("open-popup");
-    }
-    function closePopup(){
-        popup.classList.remove("open-popup");
-    }
-</script>   
+</div>  
 </body>
 </html>
