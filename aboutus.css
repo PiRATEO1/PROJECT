@@ -7,17 +7,11 @@
 
 header{
     top: auto;
-    
+    height: 100px;
     
 }
 
-body{
-    background-color: #f6f6f6;
-    background-image: url("contents/homepage-cover.png");
-    background-size: 100% ;
-    background-repeat: no-repeat;
-    height: 130vh;
-}
+
 .navbar{
     display: flex;
     padding: 20px;
@@ -30,7 +24,7 @@ body{
     background-image: url(contents/navbar-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(4px);
 }
 
 .logo img{
@@ -182,70 +176,67 @@ nav ul li i{
     
 }
 
-.catagories {
-    height: 37.5rem;
-    
-    
-    
-}
-
-.row-2{
-    padding-left: 17%;
-    padding-right: 17%;
-}  
-
-.col-3 {
+.filter-bar {
+    margin: 20px 0;
     float: left;
-    padding: 0 0.625rem;
-    transition: .2s;
-    
 }
 
-h2 {
-    text-align: center;
-    margin-bottom: 2.5rem;
-    margin-top: -1.25rem;
+.filter-bar label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.filter-bar select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 600;
     color: #0F2C59;
+    text-align: center;
+    margin-top: 8rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#a-para1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.572);
+    text-align: left;
+    margin: 2rem;
+    padding-top: 2.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: .1rem;
 }
 
-.top-pick {
-    height: 37.5rem;
+.team{
+    color: rgb(0, 0, 0);
+    margin: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: .1rem;
+    padding-bottom: 1rem;
+}
+.layer{
+    color: rgb(0, 0, 0);
 }
 
-.row-3{
-    padding-left: 17%;
-    padding-right: 17%;
-} 
-
-.col-3 img{
-    width: 18.75rem;
+#posts{
+    color: rgba(0, 0, 0, 0.572);
+    
 }
-
-.col-4 {
-    float: left;
-    padding: 0 0.625rem;
-    transition: .2s;
-}
-
-.col-3:hover{
-    transition: .2s;
-    transform: scale(1.05);
-}
-
-.col-4:hover{
-    transition: .2s;
-    transform: scale(1.05);
-}
-
-.col-4 img{
-    width: 18.75rem;
-
-}
-
 .footer{
     font-family: 'Segoe UI';
     background-color: #113946;
+    width: 100%;
 }
+
 
 .footer,p,li{
     color: white;
@@ -263,6 +254,7 @@ h2 {
     top: 0;
     left: 0;
     font-family: 'Segoe UI';
+
 }
 
 .footer-col-1 p{
@@ -296,7 +288,7 @@ h2 {
 }
 
 .footer-col-4{
-    padding-left: 250px;
+    padding-left: 300px;
     padding-top: 0;
 
     
@@ -333,7 +325,7 @@ h2 {
 }
 
 .vera{
-    padding-left: 320px;
+    padding-left: 250px;
     mix-blend-mode:difference;
 }
 
@@ -346,6 +338,14 @@ h2 {
 
 .vera i{
     font-size: 150px;
+}
+
+.rights{
+    text-align: match-parent;
+}
+
+.about-image{
+    background-image: url("homepage-cover.png");
 }
 
 .loginpage{
@@ -436,4 +436,7 @@ h2 {
     cursor: pointer;
     z-index: 6;
     color: #0F2C59;
+}
+body{
+    background-color: #FFF2D8;
 }
